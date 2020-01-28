@@ -8,4 +8,4 @@ while True:
 print(products)
 with open('products list.csv', 'w') as f:
 	for p in products:
-		f.write(p[0] + ',' + p[1] = '\n')
+		f.write(p[0] + ',' + p[1] + '\n')
